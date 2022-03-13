@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    border:0px;
+    
+}
+
+.header-logo {
+
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color:#f9faf8;
+    border-color: #fff;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+    color: #e5e7eb;
+    font: 18px;
+    font-weight:lighter;
+    
+}
+
+.subtext {
+    color: #e5e7eb;
+    font: 18px;
+    font-weight:lighter;
+}
+
+
+.Hero {
+    background: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.left {
+    display: block;
+    margin: 30px 0;
+
+}
+
+.random-info {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 125px;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.quote {
+    background: #e5e7Eb;
+    text-align: center;
+    padding: 50px;
+    padding: 125px;
+
+}
+
+.box {
+    margin: 75px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    padding: 40px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+em {
+    color: #1f2937;
+    font-weight: lighter;
+    font-size: 36px;
+
+}
+
+.credit {
+    text-align:right;
+    font-weight: bold;
+}
+
+.random-info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    background: #1f2937;
+    color: #e5e7eb;
+    font: 18px;
+}
